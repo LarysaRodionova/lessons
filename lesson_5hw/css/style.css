@@ -1,0 +1,105 @@
+/* підключення шріфту */
+@import url("fonts.css"); 
+
+/* Скидання стилів */
+@import url("reset.css");
+
+
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,500italic,700,700italic&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400&display=swap'); */
+/* @import url("https://fonts.googleapis.com/css?family=Mooli:regular&display=swap"); */
+/* @import url('https://fonts.googleapis.com/css2?family=Mooli&display=swap'); */
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,regular,600,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Inter:regular,500,600,700&display=swap");
+/* @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'); */
+
+body{
+	color: #7D7D7D;
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   font-weight: 400;
+}
+.title
+.sub-title{
+   font-family: 'Poppins', sans-serif;
+}
+.first-task > h1{
+   color: #37393F;
+   font-size: 30px;
+   font-weight: 600;
+}
+.sub-title{
+   color: #6B77E5;
+   font-size: 20px;
+   font-weight: 600;
+}
+.second-task .sub-title{
+   color: #37393F;
+   font-size: 40px;
+   font-weight: 700;
+}
+ul.ul-list  {
+   list-style-type: disc;
+}
+ol.ol-list {
+   list-style-type: decimal-leading-zero;
+}
+
+
+/* завдання стаття Різдво в Україні */
+.main-homework {
+   font-family: 'Roboto', sans-serif;
+   color: #1f1fab;
+}
+.main-homework .title{
+   font-family: 'Montserrat Bold';
+   color: #5514a0;
+   font-size: 40px;
+   font-weight: 700;
+   text-align: center;
+   text-shadow:
+		2px 3px 5px rgba(64, 191, 223, 0.5),
+		-5px -2px 2px rgb(49, 155, 49);
+
+}
+.main-homework .sub-title{
+   font-family:'Montserrat Semibold';
+   color: #196f80;
+   font-weight: 600;
+   font-size: 20px;
+   text-align: left;
+   
+}
+.list a {
+   font-family:'loraitalic';
+   color: #1d9ab4;
+   font-size: 22px;
+   font-weight: bold;
+   font-style: italic;
+}
+.footer-homework {
+   color: #8017ad;
+
+}
+footer li{
+   font-family:'loraregular'; 
+   color: #6B77E5;
+   font-weight: bold;
+   font-size: 18px;
+}
+h3{
+   font-family:'Montserrat Medium';
+   font-weight: 500;
+   font-size: 20px;
+   font-weight: bold;
+   font-style: oblique;
+}
+
+p a{
+   font-weight: bold;
+   font-style: italic;
+   color: rgb(198, 11, 245);
+   text-decoration: underline;
+   
+}
