@@ -1,0 +1,52 @@
+/* Скидання стилів */
+@import url("reset.css");
+
+.title{
+	color: red; 
+}
+.sub-title{
+	color:aqua;
+}
+.text{
+	color:blueviolet;
+}
+	
+#some-text {
+	color: yellow; 
+}
+
+div.text {
+	color: green;
+}
+
+.purple-text a {
+	color: rgb(129, 97, 97); 
+}
+
+
+.first .purple-text {
+	color: rgb(236, 36, 236); 
+}
+
+
+.container__text * {
+	color: rgb(22, 143, 22);
+}
+
+
+.list > li {
+	color:rgb(147, 84, 206)
+}
+
+
+.first ~ p {
+	color: rgb(39, 97, 28); 
+}
+
+
+.sub-title + div {
+	color: rgb(17, 10, 148); 
+}
+
+
+
